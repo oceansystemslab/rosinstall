@@ -1,0 +1,17 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- setup-file: {local-name: /opt/ros/indigo/setup.sh}
+
+- git: {local-name: vehicle_core, uri: 'git@github.com:oceansystemslab/vehicle_core.git'}
+- git: {local-name: vehicle_interface, uri: 'git@github.com:oceansystemslab/vehicle_interface.git'}
+- git: {local-name: vehicle_drivers, uri: 'git@github.com:oceansystemslab/vehicle_drivers.git'}
+
+- git: {local-name: nessie, uri: 'git@pastis3.eps.hw.ac.uk:nessie.git'}
+- git: {local-name: hwu-osl-ros-pkg, uri: 'git@pastis3.eps.hw.ac.uk:hwu-osl-ros-pkg.git'}
+
+- git: {local-name: hwu_pandora, uri: 'git@bitbucket.org:decabyte/hwu_pandora.git'}
+- git: {local-name: kcl_pandora, uri: 'git@bitbucket.org:m312z/kcl_pandora.git'}
+
