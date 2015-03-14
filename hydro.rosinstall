@@ -1,4 +1,4 @@
-# indigo.rosinstall
+# hydro.rosinstall
 - setup-file: {local-name: /opt/ros/indigo/setup.sh}
 
 - git: {local-name: vehicle_core, uri: 'git@github.com:oceansystemslab/vehicle_core.git'}
@@ -13,3 +13,4 @@
 # temporary projects
 - git: {local-name: hwu_pandora, uri: 'git@bitbucket.org:decabyte/hwu_pandora.git'}
 - git: {local-name: kcl_pandora, uri: 'git@bitbucket.org:m312z/kcl_pandora.git'}
+
