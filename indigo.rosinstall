@@ -12,4 +12,4 @@
 
 # temporary projects
 - git: {local-name: hwu_pandora, uri: 'git@github.com:oceansystemslab/hwu_pandora.git', version: master}
-- git: {local-name: kcl_pandora, uri: 'git@bitbucket.org:m312z/kcl_pandora.git', version: master}
+- git: {local-name: kcl_pandora, uri: 'git@bitbucket.org:m312z/kcl_pandora.git', version: hwu_ontology}
