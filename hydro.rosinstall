@@ -1,16 +1,16 @@
 # hydro.rosinstall
-- setup-file: {local-name: /opt/ros/indigo/setup.sh}
+- setup-file: {local-name: /opt/ros/hydro/setup.sh}
 
-- git: {local-name: vehicle_core, uri: 'git@github.com:oceansystemslab/vehicle_core.git'}
-- git: {local-name: vehicle_interface, uri: 'git@github.com:oceansystemslab/vehicle_interface.git'}
-- git: {local-name: vehicle_drivers, uri: 'git@github.com:oceansystemslab/vehicle_drivers.git'}
+- git: {local-name: vehicle_core, uri: 'git@github.com:oceansystemslab/vehicle_core.git', version: master}
+- git: {local-name: vehicle_interface, uri: 'git@github.com:oceansystemslab/vehicle_interface.git', version: master}
+- git: {local-name: vehicle_drivers, uri: 'git@github.com:oceansystemslab/vehicle_drivers.git', version: master}
 
-- git: {local-name: nessie, uri: 'git@pastis3.eps.hw.ac.uk:nessie.git'}
-- git: {local-name: hwu-osl-ros-pkg, uri: 'git@pastis3.eps.hw.ac.uk:hwu-osl-ros-pkg.git'}
+- git: {local-name: nessie, uri: 'git@pastis3.eps.hw.ac.uk:nessie.git', version: master}
+- git: {local-name: hwu-osl-ros-pkg, uri: 'git@pastis3.eps.hw.ac.uk:hwu-osl-ros-pkg.git', version: master}
 
-- git: {local-name: rosinstall, uri: 'git@github.com:oceansystemslab/rosinstall.git'}
+- git: {local-name: rosinstall, uri: 'git@github.com:oceansystemslab/rosinstall.git', version: master}
 
 # temporary projects
-- git: {local-name: hwu_pandora, uri: 'git@bitbucket.org:decabyte/hwu_pandora.git'}
-- git: {local-name: kcl_pandora, uri: 'git@bitbucket.org:m312z/kcl_pandora.git'}
+- git: {local-name: hwu_pandora, uri: 'git@bitbucket.org:decabyte/hwu_pandora.git', version: master}
+- git: {local-name: kcl_pandora, uri: 'git@bitbucket.org:m312z/kcl_pandora.git', version: master}
 
