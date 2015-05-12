@@ -14,6 +14,5 @@
 - git: {local-name: nessie, uri: 'git@pastis3.eps.hw.ac.uk:nessie.git', version: master}
 - git: {local-name: hwu-osl-ros-pkg, uri: 'git@pastis3.eps.hw.ac.uk:hwu-osl-ros-pkg.git', version: master}
 
-# temporary projects
-- git: {local-name: hwu_pandora, uri: 'git@github.com:oceansystemslab/hwu_pandora.git', version: master}
-- git: {local-name: kcl_pandora, uri: 'git@bitbucket.org:m312z/kcl_pandora.git', version: hwu_ontology}
+# local pacakges can be added here using the keywork 'other'
+# 	- other: {local-name: <package_dir>
