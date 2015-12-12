@@ -7,7 +7,9 @@
 - git: {local-name: vehicle_interface, uri: 'git@github.com:oceansystemslab/vehicle_interface.git', version: master}
 
 # drivers 
-- git: {local-name: vehicle_drivers, uri: 'git@github.com:oceansystemslab/vehicle_drivers.git', version: master}
+- git: {local-name: thrusters_controller, uri: 'git@github.com:oceansystemslab/thrusters_controller.git', version: master}
+- git: {local-name: kvh_gyroscope, uri: 'git@github.com:oceansystemslab/kvh_gyroscope.git', version: master}
+- git: {local-name: evologics_driver, uri: 'git@github.com:oceansystemslab/evologics_driver.git', version: master}
 - git: {local-name: bvt_pantilt, uri: 'git@github.com:oceansystemslab/bvt_pantilt.git', version: master}
 
 # legacy code
