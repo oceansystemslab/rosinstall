@@ -1,5 +1,5 @@
-# indigo.rosinstall
-- setup-file: {local-name: /opt/ros/indigo/setup.sh}
+# kinetic.rosinstall
+- setup-file: {local-name: /opt/ros/kinetic/setup.sh}
 
 # main repos
 - git: {local-name: rosinstall, uri: 'git@github.com:oceansystemslab/rosinstall.git', version: master}
